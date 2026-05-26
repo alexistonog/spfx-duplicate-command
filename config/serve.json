@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://rfcsvg1.sharepoint.com/sites/CommsMarketingandMedia/Lists/Event%20itinerary/AllItems.aspx",
+      "customActions": {
+        "7a095ad6-9df5-4d65-9d52-657407b10855": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list"
+          }
+        }
+      }
+    },
+    "duplicateItemCommand": {
+      "pageUrl": "https://rfcsvg1.sharepoint.com/sites/CommsMarketingandMedia/Lists/Event%20itinerary/AllItems.aspx",
+      "customActions": {
+        "7a095ad6-9df5-4d65-9d52-657407b10855": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list"
+          }
+        }
+      }
+    }
+  }
+}
