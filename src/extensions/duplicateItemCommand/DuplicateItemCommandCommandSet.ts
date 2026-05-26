@@ -133,7 +133,7 @@ export default class DuplicateItemCommandCommandSet extends BaseListViewCommandS
       }
 
       const successMessage = skippedFields.length > 0
-        ? `Item duplicated. Unsupported fields were skipped: ${skippedFields.join(', ')}`
+        ? `Item duplicated. Unsupported or Empty fields were skipped: ${skippedFields.join(', ')}`
         : 'Item duplicated successfully.';
 
       await this._showMessage(successMessage);
